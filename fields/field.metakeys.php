@@ -65,7 +65,8 @@
 
 		public function applyValidationRules($data) {
 			$rule = $this->get('validator');
-
+			
+			$data['value'] = $data['value'] ?? null;
 			return ($rule ? General::validateString($data['value'], $rule) : true);
 		}
 

@@ -2,7 +2,7 @@
 <extension id="field_metakeys" status="released" xmlns="http://getsymphony.com/schemas/extension/1.0">
 	<name>Meta Keys</name>
 	<description>The Meta Keys field allows you to add arbitrary pieces of information to entries identified by user generated keys</description>
-	<repo type="github">https://github.com/brendo/field_metakeys</repo>
+	<repo type="github">https://github.com/animaux/field_metakeys</repo>
 	<url type="discuss">http://getsymphony.com/discuss/thread/52886/</url>
 	<types>
 		<type>Field Types</type>
@@ -17,6 +17,9 @@
 		<item type="image" url="http://symphonyextensions.com/brendo/field_metakeys/media/field_metakeys.png">Meta Keys: The Meta Keys field allows you to add arbitrary pieces of information to entries identified by user generated keys</item>
 	</media>
 	<releases>
+		<release version="1.4.2" date="2022-09-08" min="2.7.10" max="2.x.x">
+			- PHP 8.1 compatibility, may require PHP 7
+		</release>
 		<release version="1.4.1" date="2017-08-10" min="2.3.1" max="2.x.x">
 			- Symphony 2.7 compatibility
 		</release>
